@@ -1,5 +1,5 @@
 # Monitor-Refresh-Rate-Switcher
-A lightweight Windows tray utility to quickly switch your monitor refresh rate between **60 Hz** and **144 Hz** (or more if you add them).  
+A lightweight Windows tray utility to quickly switch your monitor supported refresh rates, by default it supports: 60hz, 75hz, 120hz, 144hz, 165hz, 240hz, 360hz (or any other you may want to add).  
 The current refresh rate is shown directly on the tray icon, with different colors per rate.
 
 <img width="329" height="60" alt="Immagine 2025-09-14 142839" src="https://github.com/user-attachments/assets/c5189678-f92e-4bc5-a210-fa6a3cd798a0" />
