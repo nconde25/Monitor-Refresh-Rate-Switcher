@@ -23,7 +23,26 @@ The current refresh rate is shown directly on the tray icon, with different colo
 1. Download the latest release from [Releases](../../releases) (or build it yourself, see below).
 2. Run the `.exe`. It will appear in your system tray (near the clock).
 3. Right-click the tray icon to switch between available refresh rates.
-4. Taskbar behavior is limited by Windows 11 design: the icon may start in the overflow menu until you pin it visible manually. For this I highly recommend [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) so it's always visible.
+
+## Anti-virus flag, whitelist.
+The .exe is not signed by Micro$oft. It may be detected as evil. It's harmless, If you have doubts check the [refresh_rate_tray.py](https://github.com/nconde25/Monitor-Refresh-Rate-Switcher/blob/main/refresh_rate_tray.py) and compile your own (steps below) else simply add it as an exception on windows defender or your anti virus of choice. For windows Defender:
+
+1. Open the Windows Defender Security Center
+2. Click on "Virus & threat protection"
+3. Click on "Virus & threat protection settings"
+4. Scroll down and click on "Add or remove exclusions"
+5. Click on "Add an exclusion"
+6. Click on "File" and select the program or your start folder (see below).
+
+
+## Run at Start Up
+i recommend putting this on your start folder so it runs with when windows boot.
+1. Win+R
+2. search for > `shell:startup`
+3. Copy the exe in that folder
+
+# Windows 11, Always Visible fix.
+- Taskbar behavior is limited by Windows 11 design: the icon may start in the overflow menu until you pin it visible manually. For this I highly recommend [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) so it's always visible.
 
 ---
 
