@@ -27,7 +27,7 @@ The current refresh rate is shown directly on the tray icon, with different colo
 
 ---
 
-## 🛠 Build from source
+## Build from source
 You’ll need:
 - [Python 3.12+](https://www.python.org/)
 - [PyInstaller](https://pyinstaller.org/)
