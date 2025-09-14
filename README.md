@@ -61,8 +61,7 @@ The final executable will be in the dist/ folder.
 
 ## Adding More Refresh Rates
 
-By default the app supports 60 Hz and 144 Hz.
-To add another refresh rate (e.g. 120 Hz):
+To add another refresh rate (e.g. 90 Hz):
 
 Open refresh_rate_tray.py in a text editor.
 
@@ -85,12 +84,12 @@ def make_menu():
     )
 
 ```
-Add another block for 120 Hz:
+Add another block for 90 Hz:
 ```Python
 pystray.MenuItem(
-    "120 Hz",
-    lambda _: switch_rate(120),
-    checked=lambda _: get_refresh_rate() == 120
+    "90 Hz",
+    lambda _: switch_rate(90),
+    checked=lambda _: get_refresh_rate() == 90
 ),
 ```
 
