@@ -22,6 +22,7 @@ The current refresh rate is shown directly on the tray icon, with different colo
 1. Download the latest release from [Releases](../../releases) (or build it yourself, see below).
 2. Run the `.exe`. It will appear in your system tray (near the clock).
 3. Right-click the tray icon to switch between available refresh rates.
+4. Taskbar behavior is limited by Windows 11 design: the icon may start in the overflow menu until you pin it visible manually. For this I highly recommend [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) so it's always visible.
 
 ---
 
@@ -78,7 +79,5 @@ Save and rebuild with PyInstaller.
 ## Notes
 
 The refresh rate will change even if your monitor doesn't support it, without warning.
-
-Taskbar behavior is limited by Windows 11 design: the icon may start in the overflow menu until you pin it visible manually. For this I highly recommend [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) so it's always visible.
 
 Only affects the primary monitor.
