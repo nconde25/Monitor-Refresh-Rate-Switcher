@@ -4,7 +4,8 @@ The current refresh rate is shown directly on the tray icon, with different colo
 
 <img width="329" height="60" alt="Immagine 2025-09-14 142839" src="https://github.com/user-attachments/assets/c5189678-f92e-4bc5-a210-fa6a3cd798a0" />
 
-<img width="430" height="110" alt="Screenshot 2025-09-14 142905" src="https://github.com/user-attachments/assets/2cea7dd3-2194-4d14-8789-bc6b61da32ce" />
+<img width="447" height="247" alt="Screenshot 2025-09-14 155054" src="https://github.com/user-attachments/assets/9ea8a821-a4f5-4ac4-8713-6fae1681d8fd" />
+
 
 
 ---
