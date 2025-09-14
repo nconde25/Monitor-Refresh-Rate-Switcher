@@ -79,6 +79,6 @@ Save and rebuild with PyInstaller.
 
 ## Notes
 
-The refresh rate will change even if your monitor doesn't support it, without warning.
+The refresh rate will NOT change if your monitor doesn't support it or it couldn't do it.
 
 Only affects the primary monitor.
